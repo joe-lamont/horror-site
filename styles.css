@@ -14,7 +14,7 @@ nav {
 }
 
 nav a {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0) !important;
     margin: 10px;
     text-decoration: none;
     font-weight: 900;
@@ -22,7 +22,7 @@ nav a {
 
 nav :hover {
     text-decoration: underline;
-    color: rgb(146, 146, 146);
+    color: rgb(146, 146, 146) !important;
 }
 
 body {
