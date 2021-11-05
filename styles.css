@@ -54,6 +54,10 @@ body {
     width: 100%;
 }
 
+.main-content img {
+    width: 100%
+}
+
 .side-bar, .main-content {
     padding: 2%;
     border-radius: 5px;
