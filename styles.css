@@ -35,7 +35,10 @@ body {
     background-attachment: fixed;
     margin: 0;
     font-family: 'Arial';
-    color: black !important;
+}
+
+html body {
+    color: rgb(0, 0, 0);
 }
 
 .flex-container {
