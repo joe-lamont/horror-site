@@ -32,8 +32,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin: 0;
     font-family: 'Arial';
+    color: black !important;
 }
 
 .flex-container {
@@ -109,40 +111,50 @@ footer {
     flex-direction: column;
     width: 70%;
     margin: 30px auto;
-    }
+}
 
 .title {
-        background-color: rgb(97, 97, 97);
-        padding: 2%;
-        border-radius: 5px 5px 0 0;
-        box-shadow: 2px 2px 1px rgb(85, 85, 85);
-        }
+    background-color: rgb(97, 97, 97);
+    padding: 2%;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 2px 2px 1px rgb(85, 85, 85);
+}
 
 .image-container {
     padding: 2%;
     background-color: rgb(146, 146, 146);
     border-radius: 0 0 5px 5px;
     box-shadow: 2px 2px 1px rgb(85, 85, 85);
-    }
+}
 
 .second-container img {
-     width: 100%;
-    }
+    width: 100%;
+}
 
 .third-container {
     display: flex;
     flex-direction: column;
     width: 70%;
     margin: 30px auto;
-    }
+}
 
 .iframe-container {
     padding: 2%;
     background-color: rgb(146, 146, 146);
     border-radius: 0 0 5px 5px;
     box-shadow: 2px 2px 1px rgb(85, 85, 85);
-    }
+}
 
 .third-container iframe {
-        width: 100%;
-    }
+    width: 100%;
+}
+
+.bg-darkgrey {
+    background-color: rgb(97, 97, 97);
+    box-shadow: 2px 2px 1px rgb(85, 85, 85);
+}
+
+.bg-lightgrey {
+    background-color: rgb(146, 146, 146);
+    box-shadow: 2px 2px 1px rgb(85, 85, 85);
+}
